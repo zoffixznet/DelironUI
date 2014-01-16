@@ -25,18 +25,18 @@
 }
 
 .dui_b_l {
-    background: url(/UI/images/Controls/Buttons/Plain/left.png) no-repeat top left;
+    background: url(../images/Controls/Buttons/Plain/left.png) no-repeat top left;
     padding-left: 4px;
 }
 
 .dui_b_r {
-    background: url(/UI/images/Controls/Buttons/Plain/right.png) no-repeat top right;
+    background: url(../images/Controls/Buttons/Plain/right.png) no-repeat top right;
     padding-right: 4px;
 }
 
 
 .dui_b_m {
-    background: url(/UI/images/Controls/Buttons/Plain/middle.png) repeat-x;
+    background: url(../images/Controls/Buttons/Plain/middle.png) repeat-x;
     padding: 0 5px;
 }
 

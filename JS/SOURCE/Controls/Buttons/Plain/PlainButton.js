@@ -6,6 +6,9 @@ Deliron_UI_Contol_Button_Plain.prototype.init = function () {
 
     els.each(function (el) {
         var button = new Deliron_UI_Contol_Button(el);
+        [ 'dui', 'plain', 'button'].each(function (className) {
+            el.removeClass(className);
+        });
         button.construct('dui_control_button_plain');
     });
 }

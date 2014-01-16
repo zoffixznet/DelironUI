@@ -10,3 +10,8 @@ TODO: add a way to exclude individual CSS files in deliron-ui--0.001.css.pl
 .dui_b_orig[type="submit"] {
     background: none!important;
 }
+
+.dui_f_l_orig {
+    float: none;
+    text-align: left;
+}
