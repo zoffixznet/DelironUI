@@ -1,20 +1,20 @@
-Deliron_UI_Forms_Inputs_TextInput = function ( el ) {
+Deliron_UI_Forms_Inputs_TextAreaInput = function ( el ) {
     this._el = el;
 }
 
-Deliron_UI_Forms_Inputs_TextInput.prototype.construct = function (modifier) {
+Deliron_UI_Forms_Inputs_TextAreaInput.prototype.construct = function (modifier) {
     var left, middle, right, el = this._el;
 
     if ( ! modifier ) { modifier = '' }
 
     left   = new Element('span', {
-        'class': 'dui_i_t_l ' + modifier
+        'class': 'dui_i_ta_l ' + modifier
     });
     middle = new Element('span', {
-        'class': 'dui_i_t_m ' + modifier
+        'class': 'dui_i_ta_m ' + modifier
     });
     right  = new Element('span', {
-        'class': 'dui_i_t_r '  + modifier
+        'class': 'dui_i_ta_r '  + modifier
     });
 
     el.addEvent('focus', function(){
