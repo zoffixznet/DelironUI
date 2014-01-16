@@ -26,20 +26,16 @@ Deliron_UI_Contol_Button.prototype.construct = function (modifier) {
     // right.addEvent( 'mouseout', function(){this.removeClass('dui_hover')} );
     // this._el.addEvent( 'mouseout', function(){this.removeClass('dui_hover')} );
 
+    var clicky = function(e) {
+        if ( e.target.hasClass('dui_b_orig') ) return true;
 
-    left.addEvent('click', function(){
-        alert(this);
         this.getElement('.dui_b_orig').click();
         return false;
-    });
-    right.addEvent('click', function(){
-        this.getElement('.dui_b_orig').click();
-        return false;
-    });
-    middle.addEvent('click', function(){
-        this.getElement('.dui_b_orig').click();
-        return false;
-    });
+    }
+
+    left.addEvent('click', clicky);
+    right.addEvent('click', clicky);
+    middle.addEvent('click', clicky);
 
     left.replaces(this._el);
     right.inject(left);
@@ -47,7 +43,7 @@ Deliron_UI_Contol_Button.prototype.construct = function (modifier) {
     this._el.inject(middle);
     this._el.addClass('dui_b_orig');
     // this._el.addEvent('click', function() {
-    //     alert("Clicked!");
+    //     alert("Test");
     //     return false;
     // });
 }

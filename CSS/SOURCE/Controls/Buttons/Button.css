@@ -54,7 +54,7 @@
 
 .dui_b_m > .dui_b_orig {
     text-decoration: none!important;
-    font-weight: bold;
+    font-weight: bold!important;
     text-transform: uppercase;
     color: #808080;
     outline: 0!important;
