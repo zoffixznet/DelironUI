@@ -1,0 +1,12 @@
+/*
+
+I found needing these styles to cancel out the CSS that was already
+applied to my elements.
+
+TODO: add a way to exclude individual CSS files in deliron-ui--0.001.css.pl
+
+*/
+
+.dui_b_orig[type="submit"] {
+    background: none!important;
+}

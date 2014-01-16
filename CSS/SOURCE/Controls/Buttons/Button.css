@@ -1,13 +1,77 @@
-.dui_control_button_middle,
-.dui_control_button_left,
-.dui_control_button_right {
+.dui_b_m,
+.dui_b_l,
+.dui_b_r {
     display: inline-block;
     display: block;
+
+    height: 35px;
+    line-height: 35px;
+    white-space: nowrap;
+    cursor: pointer;
 }
 
 /* IE FIX for inline-block */
-.dui_control_button_middle,
-.dui_control_button_left,
-.dui_control_button_right {
+.dui_b_m,
+.dui_b_l,
+.dui_b_r {
     display: inline-block;
+}
+
+.dui_b_orig,
+.dui_b_m,
+.dui_b_l,
+.dui_b_r {
+    outline: 0;
+}
+
+.dui_b_l {
+    background: url(/UI/images/Controls/Buttons/Plain/left.png) no-repeat top left;
+    padding-left: 4px;
+}
+
+.dui_b_r {
+    background: url(/UI/images/Controls/Buttons/Plain/right.png) no-repeat top right;
+    padding-right: 4px;
+}
+
+
+.dui_b_m {
+    background: url(/UI/images/Controls/Buttons/Plain/middle.png) repeat-x;
+    padding: 0 5px;
+}
+
+.dui_hover > .dui_b_r > .dui_b_m {
+    background-position: bottom;
+}
+
+.dui_b_l.dui_hover {
+    background-position: bottom left;
+}
+
+.dui_hover > .dui_b_r {
+    background-position: bottom right;
+}
+
+.dui_b_m > .dui_b_orig {
+    text-decoration: none!important;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #808080;
+    outline: 0!important;
+    border: 0!important;
+    background: 0!important;
+    cursor: pointer;
+}
+
+.dui_b_m > .dui_b_orig:focus {
+    outline: 0!important;
+}
+
+/*.dui_b_m > .dui_b_orig:active {
+    border: 0;
+}*/
+
+.dui_hover > * > * > .dui_b_orig {
+    color: #000;
+    color: rgba(0, 0, 0, 0.7);
 }
