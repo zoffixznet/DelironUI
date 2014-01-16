@@ -1,16 +1,11 @@
-
-
-function Ninja(){
-  this.swingSword = function(){
-    return true;
-  };
+Deliron_UI_Contol_Button_Plain = function ( type ) {
 }
 
-// Should return false, but will be overridden
-Ninja.prototype.swingSword = function(){
-  return false;
-};
+Deliron_UI_Contol_Button_Plain.prototype.init = function () {
+    var els = $$('.dui.plain.button');
 
-var ninja = new Ninja();
-assert( ninja.swingSword(), "Calling the instance method, not the prototype method." );
-
+    els.each(function (el) {
+        var button = new Deliron_UI_Contol_Button(el);
+        button.construct('dui_control_button_plain');
+    });
+}

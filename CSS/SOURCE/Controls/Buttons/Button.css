@@ -1,0 +1,13 @@
+.dui_control_button_middle,
+.dui_control_button_left,
+.dui_control_button_right {
+    display: inline-block;
+    display: block;
+}
+
+/* IE FIX for inline-block */
+.dui_control_button_middle,
+.dui_control_button_left,
+.dui_control_button_right {
+    display: inline-block;
+}
