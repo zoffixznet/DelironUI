@@ -46,5 +46,8 @@ Deliron_UI_Contol_Button.prototype.construct = function (modifier) {
     middle.inject(right);
     this._el.inject(middle);
     this._el.addClass('dui_b_orig');
-    this._el.onclick = function() { alert("Clicked!"); }
+    // this._el.addEvent('click', function() {
+    //     alert("Clicked!");
+    //     return false;
+    // });
 }
