@@ -16,11 +16,18 @@ Deliron_UI_Contol_ButtonGroup.prototype.construct = function (modifier) {
     new Deliron_UI_Contol_Button_Plain().init({container: el});
 
     buttons = el.getElements('.dui_control_button_plain .dui_b_orig');
+
     max_size = 0;
-    buttons.each(function(button){
-        var button_width = button.getSize().x;
-        if ( max_size < button_width ) max_size = button_width;
-    });
+    if ( el.hasClass('full_width') ) {
+        el.removeClass('full_width');
+        max_size = el.getSize().x - 18;
+    }
+    else {
+        buttons.each(function(button){
+            var button_width = button.getSize().x;
+            if ( max_size < button_width ) max_size = button_width;
+        });
+    }
 
     buttons.each(function(button){
         button.setStyle('width', max_size + 'px');
