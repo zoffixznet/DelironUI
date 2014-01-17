@@ -18,24 +18,29 @@ Usage
 
 ### Directory
 
-Clone this repo into ``UI`` directory of in the web root of your website.
+Clone this repo into ``UI`` directory in the web root of your website.
 Other locations are currently not supported.
 
 ### Setup Code
 
 In your HTML add DelironUI CSS and JavaScript files (and MooTools):
 
-    <link rel="stylesheet" type="text/css" href="/UI/CSS/deliron-ui--0.001.css.pl" media="screen,tv,projection">
-
+```html
+    <link rel="stylesheet" type="text/css"
+        href="/UI/CSS/deliron-ui--0.001.css.pl"
+        media="screen,tv,projection">
 
     <script type="text/javascript" src="/mootools-core.js"></script>
     <script type="text/javascript" src="/mootools-more.js"></script>
 
-    <script type="text/javascript" src="/UI/JS/deliron-ui--0.001.js.pl"></script>
-
+    <script type="text/javascript"
+        src="/UI/JS/deliron-ui--0.001.js.pl"></script>
+```
 
 ### Using UI elements
 
 Specify the UI element by apply several class names to it. e.g.:
 
+```html
     <a href="/foo" class="dui plain button">This is a button</a>
+```
