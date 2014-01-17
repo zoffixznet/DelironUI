@@ -10,6 +10,7 @@ Deliron.UI.prototype.init = function () {
         new Deliron_UI_Forms_Inputs_TextAreaInput_Plain().init();
 
     new Deliron_UI_Contol_Button_Plain().init();
+    new Deliron_UI_Contol_ButtonGroup_Plain().init();
 
     new Deliron_UI_List_Plain().init();
 }

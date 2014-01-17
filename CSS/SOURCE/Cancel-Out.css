@@ -20,3 +20,8 @@ TODO: add a way to exclude individual CSS files in deliron-ui--0.001.css.pl
 .dui_form_orig li {
     border: 0;
 }
+
+
+.dui_bg_orig li {
+    line-height: normal;
+}

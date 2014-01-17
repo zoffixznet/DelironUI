@@ -1,0 +1,15 @@
+
+.dui_bg_orig .dui_control_button_plain {
+    white-space: normal;
+}
+
+.dui_bg_orig {
+    list-style: none;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.dui_bg_orig li {
+    margin: 0;
+    padding: 0 0 5px 0;
+}

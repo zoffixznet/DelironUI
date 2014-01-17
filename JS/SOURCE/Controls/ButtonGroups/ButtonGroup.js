@@ -1,49 +1,29 @@
-Deliron_UI_Contol_Button = function ( el ) {
+Deliron_UI_Contol_ButtonGroup = function ( el ) {
     this._el = el;
 }
 
-Deliron_UI_Contol_Button.prototype.construct = function (modifier) {
-    var left, middle, right;
+Deliron_UI_Contol_ButtonGroup.prototype.construct = function (modifier) {
+    var max_size, buttons, el = this._el;
 
-    if ( ! modifier ) { modifier = '' }
+    if ( modifier ) el.addClass('dui_bg_' + modifier + '_orig')
+    el.addClass('dui_bg_orig');
 
-    left   = new Element('span', {
-        'class': 'dui_b_l ' + modifier
+    el.getElements('a').each(function(button){
+        button.addClass('dui');
+        button.addClass('plain');
+        button.addClass('button');
     });
-    middle = new Element('span', {
-        'class': 'dui_b_m ' + modifier
+    new Deliron_UI_Contol_Button_Plain().init({container: el});
+
+    buttons = el.getElements('.dui_control_button_plain .dui_b_orig');
+    max_size = 0;
+    buttons.each(function(button){
+        var button_width = button.getSize().x;
+        if ( max_size < button_width ) max_size = button_width;
     });
-    right  = new Element('span', {
-        'class': 'dui_b_r '  + modifier
+
+    buttons.each(function(button){
+        button.setStyle('width', max_size + 'px');
+        button.setStyle('display', 'inline-block');
     });
-
-    left.addEvent(  'mouseover', function(){this.addClass('dui_hover')} );
-    // middle.addEvent('mouseover', function(){this.addClass('dui_hover')} );
-    // right.addEvent( 'mouseover', function(){this.addClass('dui_hover')} );
-    // this._el.addEvent('mouseover', function(){this.addClass('dui_hover')} );
-    left.addEvent(  'mouseout', function(){this.removeClass('dui_hover')} );
-    // middle.addEvent('mouseout', function(){this.removeClass('dui_hover')} );
-    // right.addEvent( 'mouseout', function(){this.removeClass('dui_hover')} );
-    // this._el.addEvent( 'mouseout', function(){this.removeClass('dui_hover')} );
-
-    var clicky = function(e) {
-        if ( e.target.hasClass('dui_b_orig') ) return true;
-
-        this.getElement('.dui_b_orig').click();
-        return false;
-    }
-
-    left.addEvent('click', clicky);
-    right.addEvent('click', clicky);
-    middle.addEvent('click', clicky);
-
-    left.replaces(this._el);
-    right.inject(left);
-    middle.inject(right);
-    this._el.inject(middle);
-    this._el.addClass('dui_b_orig');
-    // this._el.addEvent('click', function() {
-    //     alert("Test");
-    //     return false;
-    // });
 }
