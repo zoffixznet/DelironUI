@@ -27,7 +27,6 @@ Deliron_UI_Forms_Form.prototype.construct_children = function (el) {
         .each(function(el){
             el.addClass('dui'); el.addClass('button'); el.addClass('plain');
         });
-    // new Deliron_UI_Contol_Button_Plain().init();
 
     // Text inputs
     el.getElements('input[type="text"],input[type="password"]')
@@ -38,13 +37,17 @@ Deliron_UI_Forms_Form.prototype.construct_children = function (el) {
             el.addClass('text');
         });
 
-    // new Deliron_UI_Forms_Inputs_Text().init();
+    // Text areas
+    el.getElements('textarea')
+        .each(function(el){
+            el.addClass('dui');
+            el.addClass('plain');
+            el.addClass('textarea');
+        });
 
     // Labels
-
     el.getElements('label')
         .each(function(el){
             el.addClass('dui'); el.addClass('form'); el.addClass('label');
         });
-    // new Deliron_UI_Forms_Labels_Label().init();
 }

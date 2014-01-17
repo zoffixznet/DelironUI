@@ -1,0 +1,124 @@
+
+
+.dui_i_ta_m,
+.dui_i_ta_tl,
+.dui_i_ta_l,
+.dui_i_ta_bl,
+.dui_i_ta_b,
+.dui_i_ta_br,
+.dui_i_ta_r,
+.dui_i_ta_tr,
+.dui_i_ta_t {
+    display: inline-block;
+    display: block;
+}
+
+/* IE FIX */
+.dui_i_ta_m,
+.dui_i_ta_tl,
+.dui_i_ta_l,
+.dui_i_ta_bl,
+.dui_i_ta_b,
+.dui_i_ta_br,
+.dui_i_ta_r,
+.dui_i_ta_tr,
+.dui_i_ta_t {
+    display: inline-block;
+}
+
+.dui_i_ta_m {
+    padding: 10px 0 4px 4px;
+}
+
+.dui_i_ta_tl {
+    background: url(../images/Forms/TextAreas/Plain/tl.png) no-repeat top left;
+    margin: -10px 0 0 -4px;
+    padding: 10px 0 0 4px;
+}
+
+.dui_i_ta_bl {
+    background: url(../images/Forms/TextAreas/Plain/bl.png) no-repeat bottom left;
+    margin: 0 0 -4px -4px;
+    padding: 0 0 4px 4px;
+}
+
+.dui_i_ta_br {
+    background: url(../images/Forms/TextAreas/Plain/br.png) no-repeat bottom right;
+    margin: 0 -4px -4px 0;
+    padding: 0 4px 4px 0;
+}
+
+.dui_i_ta_tr {
+    background: url(../images/Forms/TextAreas/Plain/tr.png) no-repeat top right;
+    padding: 10px 4px 0 0;
+    margin: -10px -4px 0 0;
+}
+
+.dui_i_ta_l {
+    background: url(../images/Forms/TextAreas/Plain/l.png) repeat-y left;
+    margin-left: -4px;
+    padding-left: 4px;
+}
+
+.dui_i_ta_b {
+    background: url(../images/Forms/TextAreas/Plain/b.png) repeat-x bottom;
+    padding-bottom: 4px;
+    margin-bottom: -4px;
+}
+
+.dui_i_ta_r {
+    background: url(../images/Forms/TextAreas/Plain/r.png) repeat-y right;
+    padding-right: 4px;
+    margin-right: -4px;
+}
+
+.dui_i_ta_t {
+    background: url(../images/Forms/TextAreas/Plain/t.png) repeat-x top;
+    padding-top: 10px;
+    margin-top: -10px;
+}
+
+.dui_i_ta_orig {
+    background: url(../images/Forms/TextAreas/Plain/c.png) repeat;
+    margin: 0!important;
+    border: 0 !important;
+    outline: 0!important;
+    padding: 5px 5px!important;
+}
+
+
+.dui_focus > .dui_i_ta_tl {
+    background-image: url(../images/Forms/TextAreas/Plain/tl-focus.png);
+}
+
+.dui_focus > * > .dui_i_ta_bl {
+    background-image: url(../images/Forms/TextAreas/Plain/bl-focus.png);
+}
+
+.dui_focus > * > * > .dui_i_ta_br {
+    background-image: url(../images/Forms/TextAreas/Plain/br-focus.png);
+}
+
+.dui_focus > * > * > * > .dui_i_ta_tr {
+    background-image: url(../images/Forms/TextAreas/Plain/tr-focus.png);
+}
+
+.dui_focus > * > * > * > * > .dui_i_ta_l {
+    background-image: url(../images/Forms/TextAreas/Plain/l-focus.png);
+}
+
+.dui_focus > * > * > * > * > * > .dui_i_ta_b {
+    background-image: url(../images/Forms/TextAreas/Plain/b-focus.png);
+}
+
+.dui_focus > * > * > * > * > * > * > .dui_i_ta_r {
+    background-image: url(../images/Forms/TextAreas/Plain/r-focus.png);
+}
+
+.dui_focus > * > * > * > * > * > * > * > .dui_i_ta_t {
+    background-image: url(../images/Forms/TextAreas/Plain/t-focus.png);
+}
+
+.dui_focus > * > * > * > * > * > * > * > * > .dui_i_ta_orig {
+    background-image: url(../images/Forms/TextAreas/Plain/c-focus.png);
+}
