@@ -51,4 +51,4 @@ Specify the UI element by apply several class names to it. e.g.:
     </ul>
 ```
 
-***ALL DelironUI elements have `dui` class on them***
+**ALL DelironUI elements have `dui` class on them**
