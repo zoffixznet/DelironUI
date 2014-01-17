@@ -20,7 +20,7 @@ Deliron_UI_Forms_Form.prototype.construct = function (el) {
     }
 }
 Deliron_UI_Forms_Form.prototype.construct_children = function (el) {
-    el.addClass('dui_forms_form_auto_setup_orig');
+    el.addClass('dui_form_orig dui_form_auto_setup_orig');
 
     // Buttons
     el.getElements('input[type="submit"],button,input[type="button"]')

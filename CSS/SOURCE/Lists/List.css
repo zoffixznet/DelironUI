@@ -1,0 +1,16 @@
+
+.dui_l_orig {
+    list-style: none;
+    background: #fcfcfc;
+    border-top: 1px solid #fafafa;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.dui_l_orig > li {
+    padding: 3px 5px;
+    border-bottom: 1px solid #fafafa;
+    font-size: 110%;
+}
+
+
