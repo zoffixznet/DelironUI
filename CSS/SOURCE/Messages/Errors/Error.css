@@ -1,0 +1,7 @@
+.dui_m_e_orig {
+    background: #f00 url(../images/Messages/Errors/Error/error-icon.png) no-repeat 10px center;
+    color: #fff;
+    padding: 10px 10px 10px 42px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
