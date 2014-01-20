@@ -63,11 +63,11 @@ currently likely to change in the future).
 
 #### Buttons
 
-- *Name:* Plain Button
-- *Class group:* `class="dui plain button"`
-- *Class group gets replaced to:* `.dui_control_button_plain`
-- *Description:* a plain, gray button
-- *Applies to:* possibly any element that has a click handler setup;
+##### Plain Button
+- **Class group:** `class="dui plain button"`
+- **Class group gets replaced to:** `.dui_control_button_plain`
+- **Description:** a plain, gray button
+- **Applies to:** possibly any element that has a click handler setup;
     in particular `<a>`, `<input type="submit">`, `<input type="submit">`
     `<button>`
 
