@@ -71,5 +71,7 @@ currently likely to change in the future).
     in particular `<a>`, `<input type="submit">`, `<input type="submit">`
     `<button>`
 - **Sample display:**
-    - ![Plain Button](/docs/images/samples/buttons/plain.png)
-    - ![Plain Button, on hover](/docs/images/samples/buttons/plain-hover.png) (on mouse over)
+    |   View       |                   |
+    |--------------|-------------------|
+    |   Standard   | ![Plain Button](/docs/images/samples/buttons/plain.png)|--------------|-------------------|
+    |On mouse over | ![Plain Button, on hover](/docs/images/samples/buttons/plain-hover.png) (on mouse over) |
