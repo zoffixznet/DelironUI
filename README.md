@@ -71,8 +71,14 @@ currently likely to change in the future).
     in particular `<a>`, `<input type="submit">`, `<input type="submit">`
     `<button>`
 - **Sample display:**
+
     |   View       |                   |
     |--------------|-------------------|
     |   Standard   | ![Plain Button](/docs/images/samples/buttons/plain.png)|--------------|-------------------|
     |On mouse over | ![Plain Button, on hover](/docs/images/samples/buttons/plain-hover.png) (on mouse over) |
 
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
