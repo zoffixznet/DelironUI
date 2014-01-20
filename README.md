@@ -75,3 +75,4 @@ currently likely to change in the future).
     |--------------|-------------------|
     |   Standard   | ![Plain Button](/docs/images/samples/buttons/plain.png)|--------------|-------------------|
     |On mouse over | ![Plain Button, on hover](/docs/images/samples/buttons/plain-hover.png) (on mouse over) |
+
