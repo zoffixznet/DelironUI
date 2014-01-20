@@ -16,6 +16,9 @@ Deliron.UI.prototype.init = function () {
 
     // Messages
     new Deliron_UI_Messages_Error().init();
+
+    // Text
+    new Deliron_UI_Text_Quiet_Inline().init();
 }
 
 new Deliron.UI();
