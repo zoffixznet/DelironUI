@@ -83,7 +83,7 @@ Available UI Elements
 - **Class group gets replaced to:** `.dui_control_button_plain`
 - **Description:** a plain, gray button
 - **Applies to:** possibly any element that has a click handler setup;
-    in particular `<a>`, `<input type="submit">`, `<input type="submit">`,
+    in particular `<a>`, `<input type="submit">`, `<input type="button">`,
     and `<button>`
 - **Fluidity:** fixed vertically / fluid horizontally
 - **Sample display:**
