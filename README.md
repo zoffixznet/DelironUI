@@ -70,4 +70,6 @@ currently likely to change in the future).
 - **Applies to:** possibly any element that has a click handler setup;
     in particular `<a>`, `<input type="submit">`, `<input type="submit">`
     `<button>`
-
+- **Sample:**
+    - Plain: ![Plain Button](/docs/images/samples/buttons/plain-hover.png)
+    - Hover: ![Plain Button, on hover](/docs/images/samples/buttons/plain.png)
