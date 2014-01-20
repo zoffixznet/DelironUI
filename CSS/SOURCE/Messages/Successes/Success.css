@@ -1,0 +1,7 @@
+.dui_m_s_orig {
+    background: #0a0 url(../images/Messages/Successes/Success/success-icon.png) no-repeat 10px center;
+    color: #fff;
+    padding: 10px 10px 10px 42px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
