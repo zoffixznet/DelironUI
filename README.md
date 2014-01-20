@@ -5,6 +5,19 @@ A rudimentary web page UI collection (User Interface Elements/Behaviour)
 
 This collection uses [MooTools JavaScript Framework](http://mootools.net/)
 
+Table of contents
+-----------------
+
+- [You Will Need](#you-will need)
+- [Usage](#usage)
+    - [Directory](#directory)
+    - [Setup Code](#setup-code)
+    - [Using UI Elements](#using-ui-elements)
+- [Available UI Elements](#available-ui-elements)
+    - [Buttons](#buttons)
+        - [Plain Button](#plain-button)
+
+
 You Will Need
 -------------
 
@@ -39,7 +52,8 @@ In your HTML add DelironUI CSS and JavaScript files (and MooTools):
 
 ### Using UI Elements
 
-Specify the UI element by apply several class names to it. e.g.:
+Specify the UI element by applying several class names to an
+appropriate element in the markup. e.g.:
 
 ```html
     <a href="/foo" class="dui plain button">This is a button</a>
@@ -59,17 +73,19 @@ run time, to avoid conflicts with other code. For example,
 (the names of the classes to which the change is being made is
 currently likely to change in the future).
 
-### Available UI Elements
+Available UI Elements
+---------------------
 
-#### Buttons
+### Buttons
 
-##### Plain Button
+#### Plain Button
 - **Class group:** `class="dui plain button"`
 - **Class group gets replaced to:** `.dui_control_button_plain`
 - **Description:** a plain, gray button
 - **Applies to:** possibly any element that has a click handler setup;
-    in particular `<a>`, `<input type="submit">`, `<input type="submit">`
-    `<button>`
+    in particular `<a>`, `<input type="submit">`, `<input type="submit">`,
+    and `<button>`
+- **Fluidity:** fixed vertically / fluid horizontally
 - **Sample display:**
 
     |   View       |  Sample Image     |
