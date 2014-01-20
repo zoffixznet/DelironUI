@@ -1,0 +1,14 @@
+.dui_m_s_t_orig {
+    background: #0a0 url(../images/Messages/Successes/SuccessTiny/success-tiny-icon.png) no-repeat 5px center;
+    color: #fff;
+    font-size: 90%;
+    padding: 5px 5px 5px 22px;
+    line-height: normal;
+    border-radius: 3px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+td.dui_m_s_t_orig {
+    display: table-cell;
+}

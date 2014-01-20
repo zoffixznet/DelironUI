@@ -2,9 +2,10 @@
     background: #f00 url(../images/Messages/Errors/ErrorTiny/error-tiny-icon.png) no-repeat 5px center;
     color: #fff;
     padding: 5px 5px 5px 22px;
-    text-transform: uppercase;
     font-weight: bold;
     display: inline-block;
+    line-height: normal;
+    border-radius: 3px;
 }
 
 td.dui_m_e_t_orig {
