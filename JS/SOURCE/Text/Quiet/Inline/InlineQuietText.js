@@ -16,7 +16,7 @@ Deliron_UI_Text_Quiet_Inline.prototype.init = function () {
         [ 'dui', 'inline', 'quiet', 'text' ].each(function (className) {
             el.removeClass(className);
         });
-        el.addClass('dui_text_quiet_i')
+        el.addClass('dui_text_quiet_i');
         // _this.construct(el);
     });
 }
