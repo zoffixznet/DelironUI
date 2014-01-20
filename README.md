@@ -16,7 +16,7 @@ Table of contents
 - [Available UI Elements](#available-ui-elements)
     - [Buttons](#buttons)
         - [Plain Button](#plain-button)
-
+        - [Danger Button](#danger-button)
 
 You Will Need
 -------------
@@ -80,17 +80,35 @@ Available UI Elements
 
 #### Plain Button
 - **Class group:** `class="dui plain button"`
-- **Class group gets replaced to:** `.dui_control_button_plain`
+- **Class group gets replaced to:** `dui_control_button_plain > .dui_b_orig`
 - **Description:** a plain, gray button
-- **Applies to:** possibly any element that has a click handler setup;
-    in particular `<a>`, `<input type="submit">`, `<input type="button">`,
-    and `<button>`
+- **Applies to:** possibly any inline element that has a click handler
+    etup; in particular `<a>`, `<input type="submit">`, `<input type="button">`, and `<button>`. Block elements might work, but
+    generated markup will be invalid.
 - **Fluidity:** fixed vertically / fluid horizontally
+- **Extra dynamically generated markup:** 3 x `<span>`
 - **Sample display:**
 
     |   View       |  Sample Image     |
     |--------------|-------------------|
     |   Standard   | ![Plain Button](/docs/images/samples/buttons/plain.png)|--------------|-------------------|
     |On mouse over | ![Plain Button, on hover](/docs/images/samples/buttons/plain-hover.png)|
+
+#### Danger Button
+- **Class group:** `class="dui danger button"`
+- **Class group gets replaced to:** `dui_control_button_danger > .dui_b_orig`
+- **Description:** a plain, gray button that turns red on hover
+- **Applies to:** possibly any inline element that has a click handler
+    etup; in particular `<a>`, `<input type="submit">`, `<input type="button">`, and `<button>`. Block elements might work, but
+    generated markup will be invalid.
+- **Fluidity:** fixed vertically / fluid horizontally
+- **Extra dynamically generated markup:** 3 x `<span>`
+- **Sample display:**
+
+    |   View       |  Sample Image     |
+    |--------------|-------------------|
+    |   Standard   | ![Danger Button](/docs/images/samples/buttons/danger.png)|--------------|-------------------|
+    |On mouse over | ![Danger Button, on hover](/docs/images/samples/buttons/danger-hover.png)|
+
 
 

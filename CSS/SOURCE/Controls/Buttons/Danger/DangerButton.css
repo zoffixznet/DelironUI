@@ -1,0 +1,21 @@
+.dui_b_l.dui_control_button_danger {
+    background-image: url(../images/Controls/Buttons/Danger/left.png);
+}
+
+.dui_b_r.dui_control_button_danger {
+    background-image: url(../images/Controls/Buttons/Danger/right.png);
+}
+
+
+.dui_b_m.dui_control_button_danger {
+    background-image: url(../images/Controls/Buttons/Danger/middle.png);
+}
+
+
+.dui_b_m.dui_control_button_danger > .dui_b_orig {
+    /*color: #fff;*/
+}
+
+.dui_hover.dui_control_button_danger > * > * > .dui_b_orig {
+    color: #fff;
+}
