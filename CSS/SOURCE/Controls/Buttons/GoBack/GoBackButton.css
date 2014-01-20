@@ -1,0 +1,14 @@
+.dui_b_l.dui_control_button_go_back {
+    background-image: url(../images/Controls/Buttons/GoBack/left.png);
+    padding-left: 29px;
+}
+
+.dui_b_r.dui_control_button_go_back {
+    background-image: url(../images/Controls/Buttons/GoBack/right.png);
+}
+
+
+.dui_b_m.dui_control_button_go_back {
+    background-image: url(../images/Controls/Buttons/GoBack/middle.png);
+}
+

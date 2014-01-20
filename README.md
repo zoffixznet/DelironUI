@@ -17,6 +17,7 @@ Table of contents
     - [Buttons](#buttons)
         - [Plain Button](#plain-button)
         - [Danger Button](#danger-button)
+        - [Go Back Button](#go-back-button)
 
 You Will Need
 -------------
@@ -69,7 +70,7 @@ appropriate element in the markup. e.g.:
 
 A group of DelironUI classes will be replaced with a single class during
 run time, to avoid conflicts with other code. For example,
-`.dui.plain.button` is changed to a single class `dui_control_button_plain`
+`.dui.plain.button` is changed to a single class `.dui_control_button_plain`
 (the names of the classes to which the change is being made is
 currently likely to change in the future).
 
@@ -80,7 +81,7 @@ Available UI Elements
 
 #### Plain Button
 - **Class group:** `class="dui plain button"`
-- **Class group gets replaced to:** `dui_control_button_plain > .dui_b_orig`
+- **Class group gets replaced to:** `.dui_control_button_plain > .dui_b_orig`
 - **Description:** a plain, gray button
 - **Applies to:** possibly any inline element that has a click handler
     etup; in particular `<a>`, `<input type="submit">`, `<input type="button">`, and `<button>`. Block elements might work, but
@@ -96,7 +97,7 @@ Available UI Elements
 
 #### Danger Button
 - **Class group:** `class="dui danger button"`
-- **Class group gets replaced to:** `dui_control_button_danger > .dui_b_orig`
+- **Class group gets replaced to:** `.dui_control_button_danger > .dui_b_orig`
 - **Description:** a plain, gray button that turns red on hover
 - **Applies to:** possibly any inline element that has a click handler
     etup; in particular `<a>`, `<input type="submit">`, `<input type="button">`, and `<button>`. Block elements might work, but
@@ -109,6 +110,22 @@ Available UI Elements
     |--------------|-------------------|
     |   Standard   | ![Danger Button](/docs/images/samples/buttons/danger.png)|--------------|-------------------|
     |On mouse over | ![Danger Button, on hover](/docs/images/samples/buttons/danger-hover.png)|
+
+#### Go Back Button
+- **Class group:** `class="dui go_back button"`
+- **Class group gets replaced to:** `.dui_control_button_go_back > .dui_b_orig`
+- **Description:** a plain, gray button with a "back" arrow on the left.
+- **Applies to:** possibly any inline element that has a click handler
+    etup; in particular `<a>`, `<input type="submit">`, `<input type="button">`, and `<button>`. Block elements might work, but
+    generated markup will be invalid.
+- **Fluidity:** fixed vertically / fluid horizontally
+- **Extra dynamically generated markup:** 3 x `<span>`
+- **Sample display:**
+
+    |   View       |  Sample Image     |
+    |--------------|-------------------|
+    |   Standard   | ![Go Back Button](/docs/images/samples/buttons/go_back.png)|--------------|-------------------|
+    |On mouse over | ![Go Back Button, on hover](/docs/images/samples/buttons/go_back-hover.png)|
 
 
 

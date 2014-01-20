@@ -11,3 +11,7 @@
 td.dui_m_e_t_orig {
     display: table-cell;
 }
+
+.dui_m_s_orig * {
+    color: #fff;
+}

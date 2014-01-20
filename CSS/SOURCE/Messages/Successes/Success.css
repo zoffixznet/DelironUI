@@ -5,3 +5,7 @@
     text-transform: uppercase;
     font-weight: bold;
 }
+
+.dui_m_s_orig * {
+    color: #fff;
+}

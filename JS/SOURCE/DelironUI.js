@@ -11,6 +11,7 @@ Deliron.UI.prototype.init = function () {
 
     new Deliron_UI_Contol_Button_Plain().init();
     new Deliron_UI_Contol_Button_Danger().init();
+    new Deliron_UI_Contol_Button_GoBack().init();
     new Deliron_UI_Contol_ButtonGroup_Plain().init();
 
     new Deliron_UI_List_Plain().init();
