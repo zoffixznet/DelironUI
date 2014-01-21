@@ -1,0 +1,16 @@
+.dui_b_l.dui_control_button_notice_me {
+    background-image: url(../images/Controls/Buttons/NoticeMe/left.png);
+}
+
+.dui_b_r.dui_control_button_notice_me {
+    background-image: url(../images/Controls/Buttons/NoticeMe/right.png);
+}
+
+
+.dui_b_m.dui_control_button_notice_me {
+    background-image: url(../images/Controls/Buttons/NoticeMe/middle.png);
+}
+
+.dui_b_m.dui_control_button_notice_me > .dui_b_orig {
+    color: #fff;
+}

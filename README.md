@@ -18,6 +18,7 @@ Table of contents
         - [Plain Button](#plain-button)
         - [Danger Button](#danger-button)
         - [Go Back Button](#go-back-button)
+        - [Notice Me Button](#notice-me-button)
 - [Acknowledgements](#acknowledgements)
 
 You Will Need
@@ -127,6 +128,22 @@ Available UI Elements
     |--------------|-------------------|
     |   Standard   | ![Go Back Button](/docs/images/samples/buttons/go_back.png)|--------------|-------------------|
     |On mouse over | ![Go Back Button, on hover](/docs/images/samples/buttons/go_back-hover.png)|
+
+#### Notice Me Button
+- **Class group:** `class="dui notice_me button"`
+- **Class group gets replaced to:** `.dui_control_button_notice_me > .dui_b_orig`
+- **Description:** a button with loud colouring (currently blue) to stand out from the rest, for the button to be noticed
+- **Applies to:** possibly any inline element that has a click handler
+    etup; in particular `<a>`, `<input type="submit">`, `<input type="button">`, and `<button>`. Block elements might work, but
+    generated markup will be invalid.
+- **Fluidity:** fixed vertically / fluid horizontally
+- **Extra dynamically generated markup:** 3 x `<span>`
+- **Sample display:**
+
+    |   View       |  Sample Image     |
+    |--------------|-------------------|
+    |   Standard   | ![Notice Me Button](/docs/images/samples/buttons/notice-me.png)|--------------|-------------------|
+    |On mouse over | ![Notice Me Button, on hover](/docs/images/samples/buttons/notice-me-hover.png)|
 
 Acknowledgements
 ----------------
