@@ -18,6 +18,7 @@ Table of contents
         - [Plain Button](#plain-button)
         - [Danger Button](#danger-button)
         - [Go Back Button](#go-back-button)
+- [Acknowledgements](#acknowledgements)
 
 You Will Need
 -------------
@@ -129,6 +130,7 @@ Available UI Elements
 
 Acknowledgements
 ----------------
+
 The file icons used by `.dui.file.list` are a community project that
 was compiled and realeased into the public domain by
 [Andreas Gohr](http://www.splitbrain.org/personal) and
