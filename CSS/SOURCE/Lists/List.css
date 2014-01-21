@@ -2,14 +2,15 @@
 .dui_l_orig {
     list-style: none;
     background: #fcfcfc;
-    border-top: 1px solid #fafafa;
+    border-top: 1px solid #f1f1f1;
     margin-left: 0;
     padding-left: 0;
 }
 
 .dui_l_orig > li {
-    padding: 3px 5px;
-    border-bottom: 1px solid #fafafa;
+    padding: 3px 10px;
+    border: 1px solid #f1f1f1;
+    border-top: 0;
     font-size: 110%;
 }
 
