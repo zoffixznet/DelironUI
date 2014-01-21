@@ -1,0 +1,19 @@
+
+.dui_text_quot {
+    background: url(../images/Text/Quotation/right.png) no-repeat bottom right;
+    display: inline-block;
+    display: block;
+}
+.dui_text_quot {
+    display: inline-block;
+}
+
+.dui_text_r_quot {
+    background: url(../images/Text/Quotation/left.png) no-repeat top left;
+    padding: 12px;
+    display: inline-block;
+    display: block;
+}
+.dui_text_r_quot {
+    display: inline-block;
+}
