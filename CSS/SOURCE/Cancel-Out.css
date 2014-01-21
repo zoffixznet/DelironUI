@@ -25,3 +25,9 @@ TODO: add a way to exclude individual CSS files in deliron-ui--0.001.css.pl
 .dui_bg_orig li {
     line-height: normal;
 }
+
+.dui_segment_list h3,
+.dui_segment_list h4 {
+    padding-top: 0;
+    margin-top: 0;
+}
