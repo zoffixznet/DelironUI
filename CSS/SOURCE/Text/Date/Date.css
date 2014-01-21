@@ -1,0 +1,8 @@
+
+.dui_text_date {
+    background: url(../images/Text/Date/calendar-icon.png) no-repeat 2px center;
+    font-size: 80%;
+    color: #666;
+    padding-left: 17px;
+    line-height: 13px;
+}

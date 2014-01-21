@@ -25,6 +25,7 @@ Deliron.UI.prototype.init = function () {
 
     // Text
     new Deliron_UI_Text_Quiet_Inline().init();
+    new Deliron_UI_Text_Date().init();
 }
 
 new Deliron.UI();
