@@ -11,14 +11,17 @@
     padding: 4px 0;
     border: 0;
     line-height: 16px;
+    display: inline;
 }
 
 .dui_l_orig.dui_file_list a {
+    display: inline;
     background-repeat: no-repeat;
     background-position: left;
     padding-left: 20px;
     line-height: 16px;
     font-size: 80%;
+    white-space: nowrap;
     background-image: url(../images/Lists/FileList/icons/unknown.png);
 }
 
