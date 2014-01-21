@@ -127,5 +127,10 @@ Available UI Elements
     |   Standard   | ![Go Back Button](/docs/images/samples/buttons/go_back.png)|--------------|-------------------|
     |On mouse over | ![Go Back Button, on hover](/docs/images/samples/buttons/go_back-hover.png)|
 
-
-
+Acknowledgements
+----------------
+The file icons used by `.dui.file.list` are a community project that
+was compiled and realeased into the public domain by
+[Andreas Gohr](http://www.splitbrain.org/personal) and
+can be downloaded from this page:
+[http://www.splitbrain.org/projects/file_icons](http://www.splitbrain.org/projects/file_icons)

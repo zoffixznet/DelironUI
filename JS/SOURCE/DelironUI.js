@@ -14,8 +14,10 @@ Deliron.UI.prototype.init = function () {
     new Deliron_UI_Contol_Button_GoBack().init();
     new Deliron_UI_Contol_ButtonGroup_Plain().init();
 
+    // Lists
     new Deliron_UI_List_Plain().init();
     new Deliron_UI_List_Segment().init();
+    new Deliron_UI_List_File().init();
 
     // Messages
     new Deliron_UI_Messages_Error_Tiny().init();
