@@ -6,7 +6,7 @@ Deliron_UI_Forms_Form.prototype.init = function() {
 
     var obj = this;
     els.each(function (el) {
-        [ 'dui', 'form' ].each(function (className) {
+        [ 'form' ].each(function (className) {
             el.removeClass(className);
         });
         obj.construct(el);

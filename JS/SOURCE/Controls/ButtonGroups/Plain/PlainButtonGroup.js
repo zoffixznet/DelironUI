@@ -13,7 +13,7 @@ Deliron_UI_Contol_ButtonGroup_Plain.prototype.init = function () {
 
     els.each(function (el) {
         var button_group = new Deliron_UI_Contol_ButtonGroup(el);
-        [ 'dui', 'plain', 'button', 'group' ].each(function (className) {
+        [ 'plain', 'button', 'group' ].each(function (className) {
             el.removeClass(className);
         });
         button_group.construct('plain');

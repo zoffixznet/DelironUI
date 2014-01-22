@@ -13,7 +13,7 @@ Deliron_UI_Text_Quiet_Inline.prototype.init = function () {
 
     var _this = this;
     els.each(function (el) {
-        [ 'dui', 'inline', 'quiet', 'text' ].each(function (className) {
+        [ 'inline', 'quiet', 'text' ].each(function (className) {
             el.removeClass(className);
         });
         el.addClass('dui_text_quiet_i');

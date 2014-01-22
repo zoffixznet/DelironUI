@@ -23,7 +23,7 @@ Deliron_UI_List_File.prototype.init = function () {
 
     var _this = this;
     els.each(function (el) {
-        [ 'dui', 'file', 'list'].each(function (className) {
+        [ 'file', 'list'].each(function (className) {
             el.removeClass(className);
         });
         new Deliron_UI_List(el).construct('dui_file_list');

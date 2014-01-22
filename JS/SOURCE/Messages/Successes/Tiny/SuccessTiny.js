@@ -3,7 +3,7 @@ Deliron_UI_Messages_Success_Tiny = function (opts) {
 }
 
 Deliron_UI_Messages_Success_Tiny.prototype.construct = function (el) {
-    [ 'dui', 'tiny', 'message', 'success' ]
+    [ 'tiny', 'message', 'success' ]
         .each(function (className) {
             el.removeClass(className);
         });

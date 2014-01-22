@@ -14,7 +14,7 @@ Deliron_UI_Contol_Button_NoticeMe.prototype.init = function () {
 
     els.each(function (el) {
         var button = new Deliron_UI_Contol_Button(el);
-        [ 'dui', 'notice_me', 'button' ]
+        [ 'notice_me', 'button' ]
             .each(function (className) {
                 el.removeClass(className);
             });

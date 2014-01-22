@@ -28,7 +28,7 @@ Deliron_UI_Text_Quotation.prototype.init = function () {
 
     var _this = this;
     els.each(function (el) {
-        [ 'dui', 'quotation', 'text' ].each(function (className) {
+        [ 'quotation', 'text' ].each(function (className) {
             el.removeClass(className);
         });
         _this.construct(el);

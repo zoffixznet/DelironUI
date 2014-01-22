@@ -3,7 +3,7 @@ Deliron_UI_Messages_Error = function (opts) {
 }
 
 Deliron_UI_Messages_Error.prototype.construct = function (el) {
-    [ 'dui', 'message', 'error' ]
+    [ 'message', 'error' ]
         .each(function (className) {
             el.removeClass(className);
         });

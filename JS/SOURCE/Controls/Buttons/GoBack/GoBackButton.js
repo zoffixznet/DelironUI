@@ -14,7 +14,7 @@ Deliron_UI_Contol_Button_GoBack.prototype.init = function () {
 
     els.each(function (el) {
         var button = new Deliron_UI_Contol_Button(el);
-        [ 'dui', 'go_back', 'button' ]
+        [ 'go_back', 'button' ]
             .each(function (className) {
                 el.removeClass(className);
             });

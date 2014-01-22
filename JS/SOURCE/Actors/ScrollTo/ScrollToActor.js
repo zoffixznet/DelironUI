@@ -13,7 +13,7 @@ Deliron_UI_Actor_ScrollTo.prototype.init = function () {
 
     var _this = this;
     els.each(function (el) {
-        [ 'dui', 'scroll_to', 'actor' ].each(function (className) {
+        [ 'scroll_to', 'actor' ].each(function (className) {
             el.removeClass(className);
         });
         el.addClass('dui_scroll_to_actor');

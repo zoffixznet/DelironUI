@@ -6,7 +6,7 @@ Deliron_UI_Forms_Labels_Label.prototype.init = function() {
 
     var obj = this;
     els.each(function (el) {
-        [ 'dui', 'form', 'label'].each(function (className) {
+        [ 'form', 'label'].each(function (className) {
             el.removeClass(className);
         });
 
