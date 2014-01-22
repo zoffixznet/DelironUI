@@ -31,6 +31,11 @@ Deliron.UI.prototype.init = function () {
     new Deliron_UI_Text_Quiet_Inline().init();
     new Deliron_UI_Text_Date().init();
     new Deliron_UI_Text_Quotation().init();
+
+    // Actors
+    new Deliron_UI_Actor_ScrollTo().init();
+    new Deliron_UI_Actor_Focus().init();
+
 }
 
 new Deliron.UI();
