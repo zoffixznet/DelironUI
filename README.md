@@ -19,6 +19,11 @@ Table of contents
         - [Danger Button](#danger-button)
         - [Go Back Button](#go-back-button)
         - [Notice Me Button](#notice-me-button)
+    - [Text](#text)
+        - [Quiet Text, Inline](#quiet-text-inline)
+    - [Actors](#actors)
+        - [Scroll To](#scroll-to)
+        - [Focus](#focus)
 - [Acknowledgements](#acknowledgements)
 
 You Will Need
@@ -145,14 +150,21 @@ Available UI Elements
     |   Standard   | ![Notice Me Button](/docs/images/samples/buttons/notice-me.png)|--------------|-------------------|
     |On mouse over | ![Notice Me Button, on hover](/docs/images/samples/buttons/notice-me-hover.png)|
 
-Acknowledgements
-----------------
+### Text
 
-The file icons used by `.dui.file.list` are a community project that
-was compiled and realeased into the public domain by
-[Andreas Gohr](http://www.splitbrain.org/personal) and
-can be downloaded from this page:
-[http://www.splitbrain.org/projects/file_icons](http://www.splitbrain.org/projects/file_icons)
+#### Quiet Text, Inline
+
+- **Class group:** `class="dui inline quiet text"`
+- **Class group gets replaced to:** `.dui_text_quiet_i`
+- **Description:** a text that is muted to be less noticable
+- **Applies to:** currently, any element with text (**might be changed
+   to use `opacity` instead of `color` in the future**)
+- **Extra dynamically generated markup:** none
+- **Sample display:**
+
+    |   View       |  Sample Image     |
+    |--------------|-------------------|
+    |   Standard   | ![Quiet Text Inline](/docs/images/samples/text/quiet-inline-text.png)
 
 ### Actors
 
@@ -162,7 +174,7 @@ something to happen.
 #### Sctoll To
 - **Class group:** `class="dui scroll_to actor"`
 - **Class group gets replaced to:** `.dui_scroll_to_actor`
-- **Description:** that causes the page to smooth-scroll to this actor on
+- **Description:** causes the page to smooth-scroll to this actor on
     page load.
 - **Applies to:** any elemment
 - **Extra dynamically generated markup:** none
@@ -178,4 +190,11 @@ something to happen.
 - **Special notes:** the behaviour when there are more than one Scroll To
    actor on the page is undefined.
 
+Acknowledgements
+----------------
 
+The file icons used by `.dui.file.list` are a community project that
+was compiled and realeased into the public domain by
+[Andreas Gohr](http://www.splitbrain.org/personal) and
+can be downloaded from this page:
+[http://www.splitbrain.org/projects/file_icons](http://www.splitbrain.org/projects/file_icons)
