@@ -153,3 +153,29 @@ was compiled and realeased into the public domain by
 [Andreas Gohr](http://www.splitbrain.org/personal) and
 can be downloaded from this page:
 [http://www.splitbrain.org/projects/file_icons](http://www.splitbrain.org/projects/file_icons)
+
+### Actors
+
+Actors are not necessarily UI *elements*, but rather things that cause
+something to happen.
+
+#### Sctoll To
+- **Class group:** `class="dui scroll_to actor"`
+- **Class group gets replaced to:** `.dui_scroll_to_actor`
+- **Description:** that causes the page to smooth-scroll to this actor on
+    page load.
+- **Applies to:** any elemment
+- **Extra dynamically generated markup:** none
+- **Special notes:** the behaviour when there are more than one Scroll To
+   actor on the page is undefined.
+
+#### Focus
+- **Class group:** `class="dui focus actor"`
+- **Class group gets replaced to:** `.dui_focus_actor`
+- **Description:** an actor that gets focus on page load.
+- **Applies to:** any elemment that support JavaScript `.focus()`
+- **Extra dynamically generated markup:** none
+- **Special notes:** the behaviour when there are more than one Scroll To
+   actor on the page is undefined.
+
+
