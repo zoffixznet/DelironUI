@@ -26,13 +26,21 @@
 }
 
 .dui_l_orig.dui_file_list .dui_file_list_item_directory { background-image: url(../images/Lists/FileList/icons/directory.png); }
+.dui_l_orig.dui_file_list .dui_file_list_item_7z { background-image: url(../images/Lists/FileList/icons/7z.png); }
 .dui_l_orig.dui_file_list .dui_file_list_item_aiff { background-image: url(../images/Lists/FileList/icons/aiff.png); }
 .dui_l_orig.dui_file_list .dui_file_list_item_ai { background-image: url(../images/Lists/FileList/icons/ai.png); }
+.dui_l_orig.dui_file_list .dui_file_list_item_asc { background-image: url(../images/Lists/FileList/icons/asc.png); }
+.dui_l_orig.dui_file_list .dui_file_list_item_audio { background-image: url(../images/Lists/FileList/icons/audio.png); }
+.dui_l_orig.dui_file_list .dui_file_list_item_bin { background-image: url(../images/Lists/FileList/icons/bin.png); }
 .dui_l_orig.dui_file_list .dui_file_list_item_bz2 { background-image: url(../images/Lists/FileList/icons/bz2.png); }
+.dui_l_orig.dui_file_list .dui_file_list_item_cfc { background-image: url(../images/Lists/FileList/icons/cfc.png); }
+.dui_l_orig.dui_file_list .dui_file_list_item_cfm { background-image: url(../images/Lists/FileList/icons/cfm.png); }
 .dui_l_orig.dui_file_list .dui_file_list_item_chm { background-image: url(../images/Lists/FileList/icons/chm.png); }
+.dui_l_orig.dui_file_list .dui_file_list_item_class { background-image: url(../images/Lists/FileList/icons/class.png); }
 .dui_l_orig.dui_file_list .dui_file_list_item_conf { background-image: url(../images/Lists/FileList/icons/conf.png); }
 .dui_l_orig.dui_file_list .dui_file_list_item_c { background-image: url(../images/Lists/FileList/icons/c.png); }
 .dui_l_orig.dui_file_list .dui_file_list_item_cpp { background-image: url(../images/Lists/FileList/icons/cpp.png); }
+.dui_l_orig.dui_file_list .dui_file_list_item_cs { background-image: url(../images/Lists/FileList/icons/cs.png); }
 .dui_l_orig.dui_file_list .dui_file_list_item_css { background-image: url(../images/Lists/FileList/icons/css.png); }
 .dui_l_orig.dui_file_list .dui_file_list_item_csv { background-image: url(../images/Lists/FileList/icons/csv.png); }
 .dui_l_orig.dui_file_list .dui_file_list_item_deb { background-image: url(../images/Lists/FileList/icons/deb.png); }
@@ -40,6 +48,7 @@
 .dui_l_orig.dui_file_list .dui_file_list_item_doc { background-image: url(../images/Lists/FileList/icons/doc.png); }
 .dui_l_orig.dui_file_list .dui_file_list_item_dot { background-image: url(../images/Lists/FileList/icons/dot.png); }
 .dui_l_orig.dui_file_list .dui_file_list_item_eml { background-image: url(../images/Lists/FileList/icons/eml.png); }
+.dui_l_orig.dui_file_list .dui_file_list_item_enc { background-image: url(../images/Lists/FileList/icons/enc.png); }
 .dui_l_orig.dui_file_list .dui_file_list_item_eps { background-image: url(../images/Lists/FileList/icons/eps.png); }
 .dui_l_orig.dui_file_list .dui_file_list_item_file { background-image: url(../images/Lists/FileList/icons/file.png); }
 .dui_l_orig.dui_file_list .dui_file_list_item_gif { background-image: url(../images/Lists/FileList/icons/gif.png); }
@@ -47,14 +56,19 @@
 .dui_l_orig.dui_file_list .dui_file_list_item_hlp { background-image: url(../images/Lists/FileList/icons/hlp.png); }
 .dui_l_orig.dui_file_list .dui_file_list_item_html { background-image: url(../images/Lists/FileList/icons/html.png); }
 .dui_l_orig.dui_file_list .dui_file_list_item_htm { background-image: url(../images/Lists/FileList/icons/htm.png); }
+.dui_l_orig.dui_file_list .dui_file_list_item_image { background-image: url(../images/Lists/FileList/icons/image.png); }
 .dui_l_orig.dui_file_list .dui_file_list_item_iso { background-image: url(../images/Lists/FileList/icons/iso.png); }
+.dui_l_orig.dui_file_list .dui_file_list_item_jar { background-image: url(../images/Lists/FileList/icons/jar.png); }
+.dui_l_orig.dui_file_list .dui_file_list_item_java { background-image: url(../images/Lists/FileList/icons/java.png); }
 .dui_l_orig.dui_file_list .dui_file_list_item_jpeg { background-image: url(../images/Lists/FileList/icons/jpeg.png); }
 .dui_l_orig.dui_file_list .dui_file_list_item_jpg { background-image: url(../images/Lists/FileList/icons/jpg.png); }
 .dui_l_orig.dui_file_list .dui_file_list_item_js { background-image: url(../images/Lists/FileList/icons/js.png); }
+.dui_l_orig.dui_file_list .dui_file_list_item_lua { background-image: url(../images/Lists/FileList/icons/lua.png); }
 .dui_l_orig.dui_file_list .dui_file_list_item_mm { background-image: url(../images/Lists/FileList/icons/mm.png); }
 .dui_l_orig.dui_file_list .dui_file_list_item_mov { background-image: url(../images/Lists/FileList/icons/mov.png); }
 .dui_l_orig.dui_file_list .dui_file_list_item_mp3 { background-image: url(../images/Lists/FileList/icons/mp3.png); }
 .dui_l_orig.dui_file_list .dui_file_list_item_mpg { background-image: url(../images/Lists/FileList/icons/mpg.png); }
+.dui_l_orig.dui_file_list .dui_file_list_item_m { background-image: url(../images/Lists/FileList/icons/m.png); }
 .dui_l_orig.dui_file_list .dui_file_list_item_odc { background-image: url(../images/Lists/FileList/icons/odc.png); }
 .dui_l_orig.dui_file_list .dui_file_list_item_odf { background-image: url(../images/Lists/FileList/icons/odf.png); }
 .dui_l_orig.dui_file_list .dui_file_list_item_odg { background-image: url(../images/Lists/FileList/icons/odg.png); }
@@ -77,6 +91,7 @@
 .dui_l_orig.dui_file_list .dui_file_list_item_rm { background-image: url(../images/Lists/FileList/icons/rm.png); }
 .dui_l_orig.dui_file_list .dui_file_list_item_rpm { background-image: url(../images/Lists/FileList/icons/rpm.png); }
 .dui_l_orig.dui_file_list .dui_file_list_item_rtf { background-image: url(../images/Lists/FileList/icons/rtf.png); }
+.dui_l_orig.dui_file_list .dui_file_list_item_sig { background-image: url(../images/Lists/FileList/icons/sig.png); }
 .dui_l_orig.dui_file_list .dui_file_list_item_sql { background-image: url(../images/Lists/FileList/icons/sql.png); }
 .dui_l_orig.dui_file_list .dui_file_list_item_swf { background-image: url(../images/Lists/FileList/icons/swf.png); }
 .dui_l_orig.dui_file_list .dui_file_list_item_sxc { background-image: url(../images/Lists/FileList/icons/sxc.png); }
@@ -88,6 +103,8 @@
 .dui_l_orig.dui_file_list .dui_file_list_item_tgz { background-image: url(../images/Lists/FileList/icons/tgz.png); }
 .dui_l_orig.dui_file_list .dui_file_list_item_txt { background-image: url(../images/Lists/FileList/icons/txt.png); }
 .dui_l_orig.dui_file_list .dui_file_list_item_vcf { background-image: url(../images/Lists/FileList/icons/vcf.png); }
+.dui_l_orig.dui_file_list .dui_file_list_item_video { background-image: url(../images/Lists/FileList/icons/video.png); }
+.dui_l_orig.dui_file_list .dui_file_list_item_vsd { background-image: url(../images/Lists/FileList/icons/vsd.png); }
 .dui_l_orig.dui_file_list .dui_file_list_item_wav { background-image: url(../images/Lists/FileList/icons/wav.png); }
 .dui_l_orig.dui_file_list .dui_file_list_item_wma { background-image: url(../images/Lists/FileList/icons/wma.png); }
 .dui_l_orig.dui_file_list .dui_file_list_item_wmv { background-image: url(../images/Lists/FileList/icons/wmv.png); }
