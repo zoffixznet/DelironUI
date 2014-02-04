@@ -1,16 +1,29 @@
 
 .dui_table_orig {
     list-style: none;
-    background: #fcfcfc;
+    background: #fdfdfd;
     border-top: 1px solid #f1f1f1;
-    margin-left: 0;
-    padding-left: 0;
+    border-collapse: collapse;
+    margin: 10px 0;
 }
 
-.dui_table_orig > li {
-    padding: 3px 10px;
+.dui_table_orig td,
+.dui_table_orig th {
+    padding: 7px 10px;
     border: 1px solid #f1f1f1;
     border-top: 0;
     font-size: 110%;
 }
 
+.dui_table_orig th {
+    background: #fff;
+    font-weight: normal;
+    color: #888;
+    text-transform: uppercase;
+    font-size: 90%;
+    text-align: left;
+}
+
+.dui_table_orig .dui_alt td {
+    background: #f9f9f9;
+}

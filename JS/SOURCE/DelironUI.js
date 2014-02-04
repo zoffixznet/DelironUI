@@ -20,6 +20,9 @@ Deliron.UI.prototype.init = function () {
     new Deliron_UI_List_Segment().init();
     new Deliron_UI_List_File().init();
 
+    // Tables
+    new Deliron_UI_Table_Plain().init();
+
     // Messages
     new Deliron_UI_Messages_Error_Tiny().init();
     new Deliron_UI_Messages_Error().init();
