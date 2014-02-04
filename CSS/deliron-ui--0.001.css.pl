@@ -10,6 +10,7 @@ use File::Slurp qw/read_file/;
 
 my $is_minify = grep /\Aminify\z/, @ARGV;
 my $is_list_files_only = grep /\Alist\z/, @ARGV;
+my $no_content_type = grep /\Anocontenttype\z/, @ARGV;
 
 my @files = File::Find::Rule->name('*.css')->file->in('SOURCE');
 
@@ -23,7 +24,9 @@ for ( reverse @files ) {
     $all_css .= read_file($_) . "\n\n";
 }
 
-print "Content-type: text/css\n\n";
+print "Content-type: text/css\n\n"
+    unless $no_content_type;
+
 print +( $is_minify
             ? minify( input => $all_css, stripDebug => 1 )
             : $all_css
