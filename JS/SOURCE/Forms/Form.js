@@ -25,12 +25,14 @@ Deliron_UI_Forms_Form.prototype.construct_children = function (el) {
     // Buttons
     el.getElements('input[type="submit"],button,input[type="button"]')
         .each(function(el){
+            if ( el.hasClass('dui') ) return;
             el.addClass('dui'); el.addClass('button'); el.addClass('plain');
         });
 
     // Text inputs
     el.getElements('input[type="text"],input[type="password"]')
         .each(function(el){
+            if ( el.hasClass('dui') ) return;
             el.addClass('dui');
             el.addClass('input');
             el.addClass('plain');
@@ -40,6 +42,7 @@ Deliron_UI_Forms_Form.prototype.construct_children = function (el) {
     // Text areas
     el.getElements('textarea')
         .each(function(el){
+            if ( el.hasClass('dui') ) return;
             el.addClass('dui');
             el.addClass('plain');
             el.addClass('textarea');
@@ -48,6 +51,7 @@ Deliron_UI_Forms_Form.prototype.construct_children = function (el) {
     // Labels
     el.getElements('label')
         .each(function(el){
+            if ( el.hasClass('dui') ) return;
             el.addClass('dui'); el.addClass('form'); el.addClass('label');
         });
 }
