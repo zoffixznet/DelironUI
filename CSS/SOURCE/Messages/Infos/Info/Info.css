@@ -1,0 +1,11 @@
+.dui_m_i_orig {
+    background: #fff url(../images/Messages/Infos/Info/info-icon.png) no-repeat left;
+    color: #808080;
+    padding: 10px 10px 10px 32px;
+    line-height: 1.3em;
+    font-size: 90%;
+}
+
+.dui_m_i_orig * {
+    color: #808080;!important;
+}
