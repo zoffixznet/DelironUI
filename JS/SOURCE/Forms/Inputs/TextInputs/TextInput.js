@@ -32,6 +32,6 @@ Deliron_UI_Forms_Inputs_TextInput.prototype.construct = function (modifier) {
 
     el.setStyle(
         'width',
-        ( left.getParent().getSize().x - 18 ) + 'px'
+        (left.getParent().getComputedSize().width - 18 ) + 'px'
     );
 }
